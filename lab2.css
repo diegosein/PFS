@@ -1,18 +1,59 @@
-table {
-    border-collapse: colapse;
-    width: 100%;
+/* ===== TAG ===== */
+body {
+  background-color: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
 }
+
+/* ===== TAG ===== */
+header {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+/* ===== TAG ===== */
+nav a {
+  margin: 0 10px;
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ===== PSEUDO-CLASSE ===== */
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* ===== CLASSE ===== */
+.descricao {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+/* ===== ID ===== */
+#tabela-projetos {
+  width: 60%;
+  margin: 40px auto;
+  border-collapse: collapse;
+}
+
+/* ===== TAG ===== */
 th, td {
-    border: 1px solid #000;
-    padding: 8px;
-    text-align:center;
+  border: 1px solid #555;
+  padding: 10px;
+  text-align: center;
 }
 
-th{
-    background-color: #f2f2f2;
+/* ===== TAG ===== */
+th {
+  background-color: #222;
 }
 
-.body{
-    background-color: black;
-    color:#f2f2f2
+/* ===== PSEUDO-CLASSE ===== */
+td a:hover {
+  color: yellow;
 }
