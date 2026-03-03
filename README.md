@@ -1,4 +1,4 @@
-# PFS-
+# PFS
 Material de Aula
 echo "# PFS" >> README.md
 git init
