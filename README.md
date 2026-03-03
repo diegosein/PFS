@@ -1,6 +1,6 @@
-# Aula1-PFS-FEI-
+# PFS-
 Material de Aula
-echo "# Aula1-PFS-FEI-" >> README.md
+echo "# PFS" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
